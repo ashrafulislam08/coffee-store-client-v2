@@ -31,12 +31,14 @@ const Servcies = () => {
   ];
 
   return (
-    <div className="bg-[#ECEAE3] w-full p-5 flex justify-center items-center gap-5 text-center">
+    <div className="bg-[#ECEAE3] w-full p-5 flex justify-center items-center gap-5 ">
       {services.map((service) => (
         <div className="rounded-lg">
-          <img className="w-20 mx-auto" src={service.image} alt="" />
-          <h2 className="font-rancho text-2xl">{service.title}</h2>
-          <p>{service.desc}</p>
+          <img className="" src={service.image} alt="" />
+          <h2 className="font-rancho text-2xl text-[#331A15]">
+            {service.title}
+          </h2>
+          <p className="text-sm text-[#1B1A1A]">{service.desc}</p>
         </div>
       ))}
     </div>
