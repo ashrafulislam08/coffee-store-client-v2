@@ -158,7 +158,7 @@ const UpdateCoffee = () => {
             </div>
             <div className="form-control mt-6 w-full lg:col-span-2">
               <button className="btn btn-primary font-rancho text-lg border-2 border-[#331A15] text-[#331A15] bg-[#D2B48C]">
-                Add Coffee
+                Update Coffee
               </button>
             </div>
           </section>

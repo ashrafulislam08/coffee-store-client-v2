@@ -22,7 +22,7 @@ const Coffee = ({ coffee, loadedCoffees, setLoadedCoffees }) => {
   };
 
   return (
-    <div className="flex items-center gap-5 my-8">
+    <div className="flex items-center gap-5 my-8 bg-[#5c5b5b9d] px-4">
       {/* Image */}
       <div>
         <img src={photo} alt="" />
