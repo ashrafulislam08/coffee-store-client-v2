@@ -32,8 +32,8 @@ const Servcies = () => {
 
   return (
     <div className="bg-[#ECEAE3] w-full p-5 flex justify-center items-center gap-5 ">
-      {services.map((service) => (
-        <div className="rounded-lg">
+      {services.map((service, idx) => (
+        <div key={idx} className="rounded-lg">
           <img className="" src={service.image} alt="" />
           <h2 className="font-rancho text-2xl text-[#331A15]">
             {service.title}

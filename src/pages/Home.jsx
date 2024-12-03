@@ -14,7 +14,12 @@ const Home = () => {
       <Servcies />
       <section className="grid grid-cols-1 lg:grid-cols-2 justify-items-center">
         {loadedCoffees.map((coffee) => (
-          <Coffee coffee={coffee} setLoadedCoffees={setLoadedCoffees} />
+          <Coffee
+            key={coffee._id}
+            coffee={coffee}
+            loadedCoffees={loadedCoffees}
+            setLoadedCoffees={setLoadedCoffees}
+          />
         ))}
       </section>
       <Gallery />
